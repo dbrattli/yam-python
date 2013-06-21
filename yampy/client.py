@@ -72,7 +72,7 @@ class Client(object):
             method=method,
             url=self._build_url(path),
             headers=self._build_headers(),
-            params=kwargs,
+            params=kwargs
         )
         return self._parse_response(response)
 
